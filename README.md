@@ -8,12 +8,10 @@ Este projeto consiste em uma página pessoal que consome a API pública do GitHu
 - **CSS3**
 - **JavaScript (ES6+)** — Manipulação de DOM e consumo da API do GitHub
 
----
 
 ## 🧱 Estrutura do Projeto
 
-### 🔹 HTML (`perfil.html`)
-- Estrutura semântica básica com tags `<!DOCTYPE>`, `<html>`, `<head>`, e `<body>`
+### 🔹 HTML (`index.html`)
 - Input de busca para inserir o nome do usuário do GitHub
 - Container com:
   - Imagem de perfil
@@ -29,10 +27,8 @@ Este projeto consiste em uma página pessoal que consome a API pública do GitHu
 - Função `updateCardGithub()` que atualiza dinamicamente o DOM com os dados da API
 - Atualização automática conforme o usuário digita
 
----
 
 ## 🖼️ Exemplo de Funcionamento
 
 Ao carregar a página ou inserir um nome de usuário do GitHub no campo de busca, as informações são atualizadas automaticamente com base nos dados da API.
 
----
