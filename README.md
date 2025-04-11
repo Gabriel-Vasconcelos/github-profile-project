@@ -1,2 +1,1 @@
-# github-profile-project
-# github-profile-project
+# Github Profile Project
