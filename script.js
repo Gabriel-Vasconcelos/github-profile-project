@@ -22,7 +22,7 @@ const updateCardGithub = (data) => {
 
 const searchUser = (username) => {
   if (username) {
-    const url = "https://api.github.com/users/${username}"
+    const url = `https://api.github.com/users/${username}`
     fetch(url)
       .then(res => res.json())
       .then(data => updateCardGithub(data))
